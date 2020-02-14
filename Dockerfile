@@ -6,4 +6,4 @@ RUN apt update \
     && apt remove --purge --auto-remove -y openssl git wget curl \
     && rm -rf /var/lib/apt/lists/*
     # Clear up the cache also
-USER www-data
+USER vagrant
